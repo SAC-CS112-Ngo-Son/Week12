@@ -13,7 +13,7 @@ public class Week12_Lab1
 		iDices = Integer.parseInt(JOptionPane.showInputDialog("Enter the number of dices: "));
 		iBounces = Integer.parseInt(JOptionPane.showInputDialog("Enter the number of bounces: "));
 		Dice dice = new Dice();
-		if (iDices == 1)
+		if (iBounces == 1)
 			iRoll = dice.Throw(iDices);
 		else
 			iRoll = dice.Throw(iDices, iBounces);
